@@ -16,6 +16,6 @@ Run:
 mpirun -np num_processes ./a.out path_to_directory
 
 assumptions: 
-in all nodes directory has same path
-all nodes have file names as numbers and no two nodes have same file name.
-keep the stopwords file in the nfs
+- in all nodes directory has same path.
+- all nodes have file names as numbers and no two nodes have same file name.
+- keep the stopwords file in the nfs.
